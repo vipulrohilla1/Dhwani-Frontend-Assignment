@@ -1,0 +1,48 @@
+.creaditCardField {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.label {
+  color: gray;
+  font-weight: bold;
+}
+.creaditCardField-inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.creaditCardField-inputContainer input {
+  text-align: center;
+  width: 50px;
+  height: 30px;
+  border: 2px solid lightblue;
+  font-size: 20px;
+  outline: none;
+  border-radius: 3px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.pointer {
+  cursor: pointer;
+  color: red;
+}
+
+.btn {
+  background-color: lightblue;
+  width: 70px;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  outline: none;
+}
